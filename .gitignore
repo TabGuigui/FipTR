@@ -1,0 +1,17 @@
+# dataset
+data/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# custom
+*.pkl
+*.pkl.json
+*.log.json
+work_dirs/
+exps/
+*~
+mmdet3d/.mim
+
+# Pytorch
+*.pth

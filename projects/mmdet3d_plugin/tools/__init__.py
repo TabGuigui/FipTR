@@ -1,0 +1,3 @@
+from .single_gpu_test import single_gpu_test
+from .multi_gpu_test import custom_multi_gpu_test
+from .single_gpu_test_fistr import single_gpu_test as single_gpu_test_final
