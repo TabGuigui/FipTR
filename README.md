@@ -10,7 +10,7 @@
 The future instance prediction from a Bird's Eye View(BEV) perspective is a vital component in autonomous driving, which involves future instance segmentation and instance motion prediction. Existing methods usually rely on a redundant and complex pipeline which requires multiple auxiliary outputs and post-processing procedures. Moreover, estimated errors on each of the auxiliary predictions will lead to degradation of the prediction performance. In this paper, we propose a simple yet effective fully end-to-end framework named Future Instance Prediction Transformer(FipTR),  which views the task as BEV instance segmentation and prediction for future frames. We propose to adopt instance queries representing specific traffic participants to directly estimate the corresponding future occupied masks, and thus get rid of complex post-processing procedures. Besides, we devise a flow-aware BEV predictor for future BEV feature prediction composed of a flow-aware deformable attention that takes backward flow guiding the offset sampling. A novel future instance matching strategy is also proposed to further improve the temporal coherence. Extensive experiments demonstrate the superiority of FipTR and its effectiveness under different temporal BEV encoders.
 
 # News
-[2022/7/9]: We release an initial version of FipTR.
+[2024/7/9]: We release an initial version of FipTR.
 
 # Methods
 
